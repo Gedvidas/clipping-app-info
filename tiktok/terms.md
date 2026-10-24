@@ -1,44 +1,57 @@
----
-title: Clipping Terms of Service
----
-
-# Terms of Service
+# Clipping by Gedvidas — Terms of Service
 
 Last updated: 24 October 2026
 
-## Service status
+## About the application
 
-Clipping is a desktop tool for preparing video clips.
-Its TikTok integration is under development and is not
-yet approved or available for production use.
+Clipping by Gedvidas is a desktop application for selecting, reviewing and sending videos to TikTok for further editing and publishing.
+
+The integration has been tested in TikTok Sandbox. Production review is pending, and public production access is not currently available.
 
 ## Authorized use
 
-Use Clipping only with accounts you own or are authorized
-to manage. Upload only content you have permission to use.
+Use the application only with TikTok accounts you own or are authorized to manage.
 
-The planned integration sends selected videos to TikTok
-drafts. You review, edit and complete publication in TikTok.
+Upload only content you have the necessary rights and permissions to use. Your use must comply with applicable laws and TikTok's Terms of Service and Community Guidelines.
 
-Review the selected account, video, caption and privacy
-settings before authorizing an upload or publication.
+## Account connection and uploads
 
-## Platform rules
+You connect your account through TikTok Login Kit and choose whether to grant the requested permissions.
 
-Use of TikTok remains subject to TikTok's applicable
-Terms of Service and Community Guidelines.
+Before uploading, check the connected account, preview the selected video and explicitly confirm the transfer.
 
-Clipping is not affiliated with or endorsed by TikTok.
+The application sends your approved video to TikTok. You then open the TikTok Inbox notification to continue editing and decide whether to publish.
 
-API availability depends on TikTok's approval, permissions,
-quotas and policies. Uninterrupted access is not guaranteed.
+Clipping does not publish videos automatically and does not use Direct Post.
+
+## Credentials and local files
+
+Keep your client credentials and authorization tokens confidential. Do not share them publicly or commit them to public repositories.
+
+You are responsible for maintaining copies of your original videos and protecting access to your computer and local workspace.
+
+## Availability
+
+API access depends on TikTok's approval, permissions, quotas and service availability. Uploads may fail or take time to process.
+
+If an upload result is uncertain, check its status before retrying to avoid duplicate uploads.
+
+Uninterrupted service or approval by TikTok is not guaranteed.
 
 ## Privacy
 
-Read the [Privacy Policy](privacy.html) before granting access.
+Read the [Privacy Policy](privacy.html) before connecting your account.
+
+You can revoke the application's permissions through your TikTok account settings. Contact the operator to request deletion of locally stored personal information.
+
+## Independence
+
+Clipping by Gedvidas is an independent application and is not affiliated with or endorsed by TikTok.
 
 ## Contact
 
-gedvidas.lapienis@gmail.com
+Operator: Gedvidas
 
-[Home](index.html)
+Email: gedvidas.lapienis@gmail.com
+
+[Home](./) · [Privacy Policy](privacy.html)
