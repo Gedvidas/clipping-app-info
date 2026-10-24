@@ -1,21 +1,37 @@
----
-title: Clipping
----
+# Clipping by Gedvidas
 
-# Clipping
+A desktop application for selecting, reviewing and sending video clips to TikTok for further editing and publishing.
 
-A desktop tool for preparing video clips.
+## How it works
 
-## TikTok integration
+1. Connect your TikTok account through TikTok Login Kit.
+2. Select a local video and preview it.
+3. Review the connected account and explicitly confirm the upload.
+4. Clipping sends the selected video to TikTok and displays its upload status.
+5. Open the notification in your TikTok Inbox to continue editing and decide whether to publish.
 
-We are developing an integration that sends selected videos
-to TikTok drafts. The creator will review, edit and finish
-publishing inside the TikTok app.
+Clipping does not publish videos automatically. You control which videos are uploaded and whether they are published.
 
-This integration is under development and is not yet approved
-or available for production use.
+## TikTok permissions
 
-[Privacy Policy](privacy.html)
-[Terms of Service](terms.html)
+- **user.info.basic** identifies your connected account and displays its name.
+- **video.upload** sends the video you approve to TikTok for further editing.
 
-Contact: gedvidas.lapienis@gmail.com
+Direct Post is not used. Clipping does not ask for your TikTok password.
+
+## Availability
+
+The integration has been successfully tested in TikTok Sandbox, including account authorization, video upload and opening the received video in TikTok.
+
+The application has been submitted for TikTok production review. Production access has not yet been approved, and public production access is not currently available.
+
+## Privacy and terms
+
+- [Privacy Policy](privacy.html)
+- [Terms of Service](terms.html)
+
+## Contact
+
+Email: gedvidas.lapienis@gmail.com
+
+Clipping by Gedvidas is an independent application and is not affiliated with or endorsed by TikTok.
