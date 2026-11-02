@@ -1,12 +1,16 @@
+---
+layout: tiktok
+title: Privacy Policy
+---
 # Clipping by Gedvidas — Privacy Policy
 
-Last updated: 24 October 2026
+Last updated: 2 November 2026
 
 ## About this application
 
 Clipping by Gedvidas is a desktop application that lets users select, review and send videos to TikTok for further editing and publishing.
 
-The integration has been tested in TikTok Sandbox. Production review is pending, and public production access is not currently available.
+The integration has been tested in TikTok Sandbox. The current production submission was not approved; public production access is not currently available.
 
 ## Information processed
 

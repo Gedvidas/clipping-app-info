@@ -1,12 +1,16 @@
+---
+layout: tiktok
+title: Terms of Service
+---
 # Clipping by Gedvidas — Terms of Service
 
-Last updated: 24 October 2026
+Last updated: 2 November 2026
 
 ## About the application
 
 Clipping by Gedvidas is a desktop application for selecting, reviewing and sending videos to TikTok for further editing and publishing.
 
-The integration has been tested in TikTok Sandbox. Production review is pending, and public production access is not currently available.
+The integration has been tested in TikTok Sandbox. The current production submission was not approved; public production access is not currently available.
 
 ## Authorized use
 

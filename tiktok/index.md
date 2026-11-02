@@ -1,37 +1,51 @@
-# Clipping by Gedvidas
+---
+layout: tiktok
+title: Overview
+---
+# Review on your desktop. Finish in TikTok.
 
-A desktop application for selecting, reviewing and sending video clips to TikTok for further editing and publishing.
+**Clipping by Gedvidas** is a Windows desktop application for selecting a local video, reviewing it and sending it to your TikTok Inbox. You decide whether to publish in the TikTok mobile application.
 
-## How it works
+[Read the user guide](guide.html) · [Get support](support.html)
 
-1. Connect your TikTok account through TikTok Login Kit.
-2. Select a local video and preview it.
-3. Review the connected account and explicitly confirm the upload.
-4. Clipping sends the selected video to TikTok and displays its upload status.
-5. Open the notification in your TikTok Inbox to continue editing and decide whether to publish.
+> **Availability — 2 November 2026:** the Inbox integration has been tested in TikTok Sandbox. The current production submission was not approved. Website corrections are being prepared; public production access is not available.
 
-Clipping does not publish videos automatically. You control which videos are uploaded and whether they are published.
+## What the application does
 
-## TikTok permissions
+### Connect your account
 
-- **user.info.basic** identifies your connected account and displays its name.
-- **video.upload** sends the video you approve to TikTok for further editing.
+TikTok Login Kit opens authorization in your browser. After authorization, the desktop application displays the connected account name. Clipping does not ask for your TikTok password.
 
-Direct Post is not used. Clipping does not ask for your TikTok password.
+### Review a local video
 
-## Availability
+Select an MP4, MOV or WebM file and open it in your local video player. Check video and audio, then confirm that you have the rights to use it and agree to send it to the connected account.
 
-The integration has been successfully tested in TikTok Sandbox, including account authorization, video upload and opening the received video in TikTok.
+### Confirm the transfer
 
-The application has been submitted for TikTok production review. Production access has not yet been approved, and public production access is not currently available.
+A confirmation dialog shows the account, filename and duration before sending. The application checks the video and reports upload status. If a result is uncertain, check its status before repeating the upload.
 
-## Privacy and terms
+### Finish in TikTok
 
-- [Privacy Policy](privacy.html)
-- [Terms of Service](terms.html)
+After confirmed delivery, open the TikTok Inbox notification on your phone. Continue editing and choose whether to publish there. Sending to the Inbox is not publishing.
 
-## Contact
+## Product boundaries
 
-Email: gedvidas.lapienis@gmail.com
+- This integration runs in a desktop application, not in this website.
+- This website provides product documentation and support; it has no login or upload form.
+- The described Inbox workflow does not use Direct Post or automatically publish videos.
+- No public installer is currently offered. Contact the developer with availability questions; production access cannot be enabled through this website.
 
-Clipping by Gedvidas is an independent application and is not affiliated with or endorsed by TikTok.
+## Permissions and data
+
+| Permission | Purpose |
+| --- | --- |
+| `user.info.basic` | Identify the connected account and display its name. |
+| `video.upload` | Transfer a video you reviewed and approved to TikTok. |
+
+Authorization tokens and upload records are stored in the operator's local workspace. Selected videos are sent to TikTok after confirmation. Read the [Privacy Policy](privacy.html) and [Terms of Service](terms.html).
+
+## Help with your workflow
+
+The [user guide](guide.html) explains connection, review, consent and delivery. The [support page](support.html) covers missing Inbox notifications, uncertain uploads and access removal.
+
+Developer contact: [gedvidas.lapienis@gmail.com](mailto:gedvidas.lapienis@gmail.com)

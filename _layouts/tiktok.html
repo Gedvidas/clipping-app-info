@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title | escape }} · Clipping by Gedvidas</title>
+<meta name="description" content="Clipping by Gedvidas: desktop video review and transfer to TikTok Inbox. User guide and support.">
+<link rel="icon" type="image/png" href="{{ '/tiktok/assets/app-icon.png' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ '/tiktok/assets/app-icon.png' | relative_url }}">
+<link rel="stylesheet" href="{{ '/tiktok/assets/site.css' | relative_url }}">
+</head>
+<body>
+<header>
+<a class="brand" href="{{ '/tiktok/' | relative_url }}"><img src="{{ '/tiktok/assets/app-icon.png' | relative_url }}" alt="Clipping app icon" width="52" height="52"><span>Clipping by Gedvidas<small>Desktop video companion</small></span></a>
+<nav aria-label="Main navigation">
+<a href="{{ '/tiktok/' | relative_url }}">Overview</a>
+<a href="{{ '/tiktok/guide.html' | relative_url }}">User guide</a>
+<a href="{{ '/tiktok/support.html' | relative_url }}">Support</a>
+<a href="{{ '/tiktok/privacy.html' | relative_url }}">Privacy</a>
+<a href="{{ '/tiktok/terms.html' | relative_url }}">Terms</a>
+</nav>
+</header>
+<main>{{ content }}</main>
+<footer>
+<p>Clipping by Gedvidas · <a href="mailto:gedvidas.lapienis@gmail.com">Contact the developer</a></p>
+<p><a href="{{ '/tiktok/privacy.html' | relative_url }}">Privacy Policy</a> · <a href="{{ '/tiktok/terms.html' | relative_url }}">Terms of Service</a></p>
+<small>Independent application. Not affiliated with or endorsed by TikTok.</small>
+</footer>
+</body>
+</html>
